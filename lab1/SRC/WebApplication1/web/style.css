@@ -1,0 +1,99 @@
+/* 
+    Document   : style
+    Created on : 13.03.2012, 17:26:03
+    Author     : eugene
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+a:link {
+    color: black; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black; 
+    text-decoration: none;
+}
+a:hover {
+    color: black; 
+    background-color: white; 
+    text-decoration: underline;
+}
+
+#globalDiv {
+    width: 20%;
+}
+
+#title {
+    text-align:center;
+    font-size: 15pt;
+    /*	width: 20%;*/
+}
+
+#variant {
+    background: #d3e4e1;
+    padding: 2px;
+    font-size: 11pt;
+
+}
+
+#variant:hover {
+    background: #b4d0cc;
+}
+
+#titleRows {
+    text-align:center;
+    width: 30pt;
+}
+
+#inputY {
+    width: 99%;
+    border:0px;
+    text-align:center;
+}
+
+#mainTable {
+    font-size: 15pt;
+    border:1px solid #000
+}
+
+#insideTable {
+    font-size: 13pt;
+    width: 100%;
+}
+
+#hoverable {
+    font-size: 10pt;
+}
+
+#hoverable:hover {
+    background: #f3f7f7;
+}
+
+#inputY:hover {
+    background: #f3f7f7;
+}
+
+#confirmButton {
+    width:100%;
+}
+
+#confirmCell {
+    background: #d3e4e1;
+}
+
+#confirmCell:hover {
+    background: #b4d0cc;
+}
+
+#error {
+    background: #609c92;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

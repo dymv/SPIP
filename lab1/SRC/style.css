@@ -36,5 +36,32 @@
 
 #insideTable {
 	font-size: 13;
-	width: 180;
+	width: 100%;
+}
+
+#hoverable:hover {
+	background: #f3f7f7;
+}
+
+#inputY:hover {
+	background: #f3f7f7;
+}
+
+#confirmButton {
+	width:100%;
+}
+
+#confirmCell {
+	background: #d3e4e1;
+}
+
+#confirmCell:hover {
+	background: #b4d0cc;
+}
+
+#error {
+	background: #609c92;
+	width: 100%;
+	text-align: center;
+	color: white;
 }
