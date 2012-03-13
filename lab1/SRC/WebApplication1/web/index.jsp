@@ -13,17 +13,26 @@
         <script language="javascript">
             function validateForm() {
                 var y = document.forms["labForm"]["y"].value;
-                if (y < -3 || y > 5) {
-                    document.getElementById("error").innerHTML="out of range!"; 
-                    return false;
+                
+                if (y.match(/^-?\d+[\.|\,]?\d+$/)) {
+                    return true;
                 }
-                if (y.match(/[A-z]+/)) {
-                    document.getElementById("error").innerHTML="contains letter!"; 
+                
+                if (y.match(/^-?\d$/)) {
+                    return true;
+                }
+        
+                if (y.match(/^-?\d+e-?\d+$/)) {
+                    return true;
+                }
+                
+                if (y < -3 || y > 5) {
+                    document.getElementById("error").innerHTML="Out of range!"; 
                     return false;
                 }
 				
-                document.getElementById("error").innerHTML=""; 
-                return true;
+                document.getElementById("error").innerHTML="Incorrect data!"; 
+                return false;
             }
         </script>
     </head>
