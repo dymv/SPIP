@@ -1,0 +1,26 @@
+body {
+    font-family: verdana, tahoma, sans-serif;
+    color: #333366;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#pointer-div {
+    background-image:url('var150_cropped.jpg');
+    width:168px;
+    height:170px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#res-table {
+    margin-left:auto; margin-right:auto; width:25%
+}
+
+#input-table {
+    margin-left:auto; margin-right:auto; width:45%
+}
+
+first-td {
+    width:10%
+}
